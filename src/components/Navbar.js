@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 import './styling/style.scss'
 
 export default class Navbar extends Component {
@@ -11,9 +12,9 @@ export default class Navbar extends Component {
                     </div>
                     <div className='navbar-right'>
                         <ul>
-                            <li>HOME</li>
-                            <li>GYMS</li>
-                            <li>TRAINERS</li>
+                            <NavLink to='/' exact activeStyle={{textDecoration: 'underline'}} className='navbar-link'><li>HOME</li></NavLink>
+                            <NavLink to='/gyms' exact activeStyle={{textDecoration: 'underline'}} className='navbar-link'><li>GYMS</li></NavLink>
+                            <NavLink to='/trainers' exact activeStyle={{textDecoration: 'underline'}} className='navbar-link'><li>TRAINERS</li></NavLink>
                         </ul>
                     </div>
                 </div>
