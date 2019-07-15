@@ -1,0 +1,12 @@
+$primary-font: 'Roboto Condensed', sans-serif;
+$secondary-font: 'Audiowide', cursive;
+
+$green-color: #44C184;
+$blue-color: #232A3B;
+$grey-color: #c0c5ce;
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
