@@ -6,9 +6,12 @@ export default class Main extends Component {
         return (
             <>
                 <div className='main'>
-
+                    <div>Leave Your Mark</div>
                 </div>
-                <div>hello</div>
+                <div className='main-message'>
+                    Start Your Journery Today!
+                    <button>Join Now</button>
+                </div>
             </>
         )
     }

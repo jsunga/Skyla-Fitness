@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import './styling/style.scss'
 
 export default class Navbar extends Component {
+
     render() {
         return (
             <div className='navbar-container'>
@@ -21,4 +22,5 @@ export default class Navbar extends Component {
             </div>
         )
     }
+    
 }
