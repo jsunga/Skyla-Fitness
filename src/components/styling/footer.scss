@@ -1,0 +1,71 @@
+@import './variables';
+
+.footer {
+    background-color: $blue-color;
+    color: white;
+    text-align: center;
+    padding: 60px 30px 60px 30px;
+
+    @media (min-width: 768px) {
+        @include center;
+        text-align: left;
+    }
+
+    .container {
+        @media (min-width: 768px) {
+            width: 1500px;
+            display: flex;
+        }
+    }
+
+    .left-container {
+        @media (min-width: 768px) {
+            width: 75%;
+            padding-right: 10px;
+        }
+    }
+
+    .right-container {
+        @media (min-width: 768px) {
+            width: 25%;
+            min-width: 310px;
+            text-align: center;
+        }
+    }
+
+    h1 {
+        font-family: $secondary-font;
+        margin: 0;
+
+        span {
+            color: $green-color;;
+        }
+    }
+
+    h2 {
+        @media (min-width: 768px) {
+            margin: 0;
+            padding-bottom: 15px;
+        }
+    }
+
+    p {
+        font-family: $primary-font;
+        font-size: 18px;
+    }
+
+    img {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        padding-bottom: 10px;
+    }
+}

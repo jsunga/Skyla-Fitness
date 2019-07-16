@@ -2,6 +2,7 @@ import React from 'react'
 import Why from './Why'
 import Pricing from './Pricing'
 import Contact from './Contact'
+import Footer from './Footer'
 import './styling/main.scss'
 
 const Main = () => {
@@ -18,6 +19,7 @@ const Main = () => {
             <Why />
             <Pricing />
             <Contact />
+            <Footer />
         </>
     )
 
