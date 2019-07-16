@@ -35,7 +35,7 @@ const Pricing = () => {
                         </ul>
                     </section>
                     <section>
-                        <h2>PRO</h2>
+                        <h2>Pro</h2>
                         <ul>
                             <li><b>3</b> Pass</li>
                             <li><b>$30</b> /month</li>
