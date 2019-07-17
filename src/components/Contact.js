@@ -5,7 +5,7 @@ const Contact = () => {
 
     return (
         <main className='contact'>
-            <div className='container'>
+            <div>
                 <h1>Contact Us</h1>
                 <span>Need to get in touch? Fill in the form below for more information:</span>
                 <form onSubmit={e => e.preventDefault()}>

@@ -5,7 +5,7 @@ const Pricing = () => {
 
     return (
         <main className='pricing-section'>
-            <div className='container'>
+            <div>
                 <h1>Pricing</h1>
                 <span>
                     Pricing structure for 
@@ -23,8 +23,8 @@ const Pricing = () => {
                             <li><button>Sign up</button></li>
                         </ul>
                     </section>
-                    <section class='special'>
-                        <h2 class='standard'>STANDARD</h2>
+                    <section className='special-section'>
+                        <h2 className='standard'>STANDARD</h2>
                         <ul>
                             <li><b>2</b> Pass</li>
                             <li><b>$20</b> /month</li>

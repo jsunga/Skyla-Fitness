@@ -6,7 +6,7 @@
     text-align: center;
     padding: 60px 30px 60px 30px;
 
-    .container {
+    div {
         @media (min-width: 768px) {
             max-width: 1500px;
             margin: 0 auto;
@@ -73,13 +73,13 @@
         cursor: pointer;
     }
 
-    .standard {
-        background-color: $green-color;
-    }
-
-    .special {
+    .special-section {
         @media (min-width: 768px) {
             transform: translate(0, -10px);
         }
+    }
+
+    .standard {
+        background-color: $green-color;
     }
 }

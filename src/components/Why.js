@@ -8,7 +8,7 @@ const Why = () => {
 
     return (
         <main className='why-section'>
-            <div className='container'>
+            <div>
                 <h1>Why work with us?</h1>
                 <span>Because we are the best at what we do!</span>
                 <div>

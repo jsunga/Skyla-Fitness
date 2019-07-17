@@ -42,7 +42,6 @@ const Footer = () => {
                         <li><b>Phone:</b> (777) 777-7777</li>
                     </ul>
                 </section>
-
             </div>
         </footer>
     )
