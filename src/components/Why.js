@@ -12,7 +12,7 @@ const Why = () => {
                 <h1>Why work with us?</h1>
                 <span>Because we are the best at what we do!</span>
                 <div>
-                    <section>
+                    <section className='wow fadeIn' data-wow-duration="2s">
                         <img src={gym} alt='icon' />
                         <h1>Biggest Gyms</h1>
                         <p>
@@ -22,7 +22,7 @@ const Why = () => {
                             pools and gymnasiums.
                         </p>
                     </section>
-                    <section>
+                    <section className='wow fadeIn' data-wow-duration="2s" data-wow-delay=".5s">
                         <img src={users} alt='icon' />
                         <h1>Experienced Personal Trainers</h1>
                         <p>
@@ -32,7 +32,7 @@ const Why = () => {
                             style and personality.
                         </p>
                     </section>
-                    <section>
+                    <section className='wow fadeIn' data-wow-duration="2s" data-wow-delay="1s">
                         <img src={diet} alt='icon' />
                         <h1>Best Programs</h1>
                         <p>

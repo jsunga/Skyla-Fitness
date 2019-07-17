@@ -9,7 +9,7 @@ const Trainers = () => {
     return (
         <main className='trainers'>
             <h1>Our Trainers</h1>
-            <div>
+            <div className='wow fadeInLeft'>
                 <section>
                     <img src={trainer1} alt='pic' />
                 </section>
@@ -27,7 +27,7 @@ const Trainers = () => {
                     </p>
                 </section>
             </div>
-            <div className='desktop'>
+            <div className='desktop wow fadeInRight' data-wow-delay=".5s">
                 <section className='special'>
                     <h2>Lorem ipsum dolor</h2>
                     <p>
@@ -45,7 +45,7 @@ const Trainers = () => {
                     <img src={trainer2} alt='pic' />
                 </section>
             </div>
-            <div className='mobile'>
+            <div className='mobile wow fadeInRight' data-wow-delay=".5s">
                 <section>
                     <img src={trainer2} alt='pic' />
                 </section>
@@ -63,7 +63,7 @@ const Trainers = () => {
                     </p>
                 </section>
             </div>
-            <div>
+            <div className='wow fadeInLeft' data-wow-delay=".5s">
                 <section>
                     <img src={trainer3} alt='pic' />
                 </section>

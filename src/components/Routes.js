@@ -7,8 +7,14 @@ import Register from './Register'
 import Navbar from './Navbar'
 import Landing from './Landing'
 import Footer from './Footer'
+import WOW from 'wowjs'
 
 export default class Routes extends Component {
+
+    componentDidMount() {
+        const wow = new WOW.WOW()
+        wow.init()
+    }
 
     render() {
         return (

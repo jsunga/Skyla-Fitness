@@ -6,7 +6,7 @@ const Message = () => {
     return (
         <div className='message'>
             Start Your Journery Today!
-            <button>Join Now</button>
+            <button className='wow bounce'>Join Now</button>
         </div>
     )
 

@@ -23,7 +23,7 @@ const Pricing = () => {
                             <li><button>Sign up</button></li>
                         </ul>
                     </section>
-                    <section className='special-section'>
+                    <section className='special-section wow bounceIn'>
                         <h2 className='standard'>STANDARD</h2>
                         <ul>
                             <li><b>2</b> Pass</li>

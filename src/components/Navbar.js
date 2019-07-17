@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <main className='navbar'>
             <section>
-                <div className='left-container'>
+                <div className='left-container wow fadeInLeft'>
                     <span>SKYLA</span> FITNESS
                 </div>
                 <div className='right-container'>

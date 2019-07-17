@@ -5,7 +5,7 @@ const Landing = () => {
 
     return (
         <div className='landing'>
-            <div>Leave Your Mark</div>
+            <div className='wow fadeIn' data-wow-duration="2s">Leave Your Mark</div>
         </div>
     )
 
