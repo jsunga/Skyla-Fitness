@@ -27,7 +27,7 @@ const Trainers = () => {
                     </p>
                 </section>
             </div>
-            <div>
+            <div className='desktop'>
                 <section className='special'>
                     <h2>Lorem ipsum dolor</h2>
                     <p>
@@ -43,6 +43,24 @@ const Trainers = () => {
                 </section>
                 <section>
                     <img src={trainer2} alt='pic' />
+                </section>
+            </div>
+            <div className='mobile'>
+                <section>
+                    <img src={trainer2} alt='pic' />
+                </section>
+                <section>
+                    <h2>Lorem ipsum dolor</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, cum ei 
+                        persius minimum, an his corpora tractatos, 
+                        viderer fabulas accumsan ad quo. Has 
+                        aliquid vivendo appetere ut, mei in everti 
+                        evertitur. Dolorum noluisse scaevola id 
+                        qui, id mea mazim partiendo, in mel odio 
+                        nostrum oporteat. Id has solum eloquentiam 
+                        disputationi.
+                    </p>
                 </section>
             </div>
             <div>

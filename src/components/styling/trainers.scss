@@ -3,7 +3,7 @@
 .trainers {
     font-family: $primary-font;
     text-align: center;
-    padding: 60px 30px 60px 30px;
+    padding: 30px;
 
     div {
         @media (min-width: 768px) {
@@ -60,6 +60,7 @@
     }
 
     .special {
+
         h2 {
             margin: 0;
             margin-bottom: 10px;
@@ -68,6 +69,18 @@
         p {
             margin: 0;
             padding-right: 10px;
+        }
+    }
+
+    .desktop {
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    .mobile {
+        @media (min-width: 768px) {
+            display: none;
         }
     }
 }
