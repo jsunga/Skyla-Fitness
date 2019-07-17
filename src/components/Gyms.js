@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { Component } from 'react'
 import gym1 from './images/gym1.jpg'
 import gym2 from './images/gym2.jpg'
 import gym3 from './images/gym3.jpg'
 import './styling/gyms.scss'
 
-const Gyms = () => {
+class Gyms extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
+    render() {
     return (
         <main className='gym'>
             <div className='container'>
@@ -27,7 +32,7 @@ const Gyms = () => {
             </div>
         </main>
     )
-
+    }
 }
 
 export default Gyms

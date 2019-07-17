@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { Component } from 'react'
 import trainer1 from './images/trainer1.png'
 import trainer2 from './images/trainer2.png'
 import trainer3 from './images/trainer3.jpg'
 import './styling/trainers.scss'
 
-const Trainers = () => {
+class Trainers extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
+    render() {
     return (
         <main className='trainers'>
             <h1>Our Trainers</h1>
@@ -83,7 +88,7 @@ const Trainers = () => {
             </div>
         </main>
     )
-
+    }
 }
 
 export default Trainers
