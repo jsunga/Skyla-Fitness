@@ -1,3 +1,3 @@
 ## Skyla Fitness
 
-A simple website I made for a fitness gym business using React.
+A static website I made for a fitness gym chain.
