@@ -1,3 +1,3 @@
 ## Skyla Fitness
 
-A simple website I made for a fitness gym business using React.
+A website for a fitness gym chain utilizing semantic HTML5 and Sass (CSS preprocessor) with responsive web design
