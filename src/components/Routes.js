@@ -24,7 +24,6 @@ export default class Routes extends Component {
                 <Route exact path='/' component={Main} />
                 <Route exact path='/gyms' component={Gyms} />
                 <Route exact path='/trainers' component={Trainers} />
-                <Route exact path='/join' component={Register} />
                 <Footer />
             </HashRouter>
         )

@@ -26,7 +26,7 @@ const Why = () => {
                         <img src={users} alt='icon' />
                         <h1>Experienced Personal Trainers</h1>
                         <p>
-                            The trainers at Python Fitness have over 10 
+                            The trainers at Skyla Fitness have over 10 
                             years of experience in fitness. You'll get 
                             your pick of trainer to best fit your training 
                             style and personality.
