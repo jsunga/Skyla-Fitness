@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "91aa5681a71d0c771d24da4bb70e1125",
+    "revision": "06cedf27ffcbe628e401631770167565",
     "url": "/Skyla-Fitness/index.html"
   },
   {
-    "revision": "b9c3cb7c0fcb8bfec5f4",
+    "revision": "cff92421f67e7dd931a4",
     "url": "/Skyla-Fitness/static/css/main.1fed04f4.chunk.css"
   },
   {
-    "revision": "33c121b4a2e1950665b3",
-    "url": "/Skyla-Fitness/static/js/2.b1d3d974.chunk.js"
+    "revision": "b5d3c1451613162c069c",
+    "url": "/Skyla-Fitness/static/js/2.6baa428e.chunk.js"
   },
   {
-    "revision": "b9c3cb7c0fcb8bfec5f4",
-    "url": "/Skyla-Fitness/static/js/main.3c994428.chunk.js"
+    "revision": "cff92421f67e7dd931a4",
+    "url": "/Skyla-Fitness/static/js/main.cf2100f7.chunk.js"
   },
   {
     "revision": "5fd2e32470bab985063f",

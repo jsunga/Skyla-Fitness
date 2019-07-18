@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Skyla-Fitness/precache-manifest.5648996ffb008f5fa62152689c8fe87a.js"
+  "/Skyla-Fitness/precache-manifest.710558b0fbdde017b6289f6982250820.js"
 );
 
 self.addEventListener('message', (event) => {
